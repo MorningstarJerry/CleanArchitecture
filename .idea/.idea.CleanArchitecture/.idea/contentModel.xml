@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ilker\.nuget\packages\microsoft.net.test.sdk\16.8.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\ilker\.nuget\packages\microsoft.testplatform.testhost\16.8.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\ilker\.nuget\packages\microsoft.testplatform.testhost\16.8.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\ilker\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\ilker\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit.engine.core.dll" t="Include" />
+    <e p="C:\Users\ilker\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\ilker\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\ilker\.nuget\packages\nunit3testadapter\3.17.0\build\netcoreapp2.1\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\ilker\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ilker\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_CleanArchitecture.1850495124.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ilker\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ilker\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ilker\source\repos\CleanArchitecture" t="IncludeFlat">
+      <e p="CleanArchitecture.sln" t="IncludeFlat" />
+      <e p="docker-compose.yml" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="src" t="Include">
+        <e p="Apps" t="Include">
+          <e p="Client.WorkerService" t="IncludeRecursive">
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Client" t="Include">
+              <e p="SwaggerClientBase.cs" t="Include" />
+              <e p="WebApiClient.cs" t="Include" />
+            </e>
+            <e p="Client.WorkerService.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="net5.0" t="Include">
+                  <e p="Client.WorkerService.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Program.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="launchSettings.json" t="Include" />
+            </e>
+            <e p="Worker.cs" t="Include" />
+          </e>
+          <e p="WebApi" t="IncludeRecursive">
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="appsettings.Production.json" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Controllers" t="Include">
+              <e p="BaseApiController.cs" t="Include" />
+              <e p="CitiesController.cs" t="Include" />
+              <e p="DistrictsController.cs" t="Include" />
+              <e p="LoginController.cs" t="Include" />
+              <e p="VillagesController.cs" t="Include" />
+              <e p="WeatherForecastController.cs" t="Include" />
+            </e>
+            <e p="Dockerfile" t="Include" />
+            <e p="Filters" t="Include">
+              <e p="ApiExceptionFilterAttribute.cs" t="Include" />
+            </e>
+            <e p="nswag.json" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="net5.0" t="Include">
+                  <e p="WebApi.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Program.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="launchSettings.json" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="CurrentUserService.cs" t="Include" />
+            </e>
+            <e p="Startup.cs" t="Include" />
+            <e p="WebApi.csproj" t="IncludeRecursive" />
+            <e p="wwwroot" t="Include">
+              <e p="api" t="Include">
+                <e p="specification.json" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Common" t="Include">
+          <e p="Application" t="IncludeRecursive">
+            <e p="Application.csproj" t="IncludeRecursive" />
+            <e p="ApplicationUser" t="Include">
+              <e p="Commands" t="Include">
+                <e p="Create" t="Include" />
+                <e p="Delete" t="Include" />
+                <e p="Update" t="Include" />
+              </e>
+              <e p="Queries" t="Include">
+                <e p="GetToken" t="Include">
+                  <e p="GetTokenQuery.cs" t="Include" />
+                  <e p="GetTokenQueryValidator.cs" t="Include" />
+                  <e p="LoginResponse.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Cities" t="Include">
+              <e p="Commands" t="Include">
+                <e p="Create" t="Include">
+                  <e p="CreateCityCommand.cs" t="Include" />
+                  <e p="CreateCityCommandValidator.cs" t="Include" />
+                </e>
+                <e p="Delete" t="Include">
+                  <e p="DeleteCityCommand.cs" t="Include" />
+                </e>
+                <e p="Update" t="Include">
+                  <e p="UpdateCityCommand.cs" t="Include" />
+                  <e p="UpdateCityCommandValidator.cs" t="Include" />
+                </e>
+              </e>
+              <e p="EventHandler" t="Include">
+                <e p="CityActivatedEventHandler.cs" t="Include" />
+                <e p="CityCreatedEventHandler.cs" t="Include" />
+              </e>
+              <e p="Queries" t="Include">
+                <e p="GetCities" t="Include">
+                  <e p="GetAllCitiesQuery.cs" t="Include" />
+                </e>
+                <e p="GetCityById" t="Include">
+                  <e p="GetCityByIdQuery.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Common" t="Include">
+              <e p="Behaviours" t="Include">
+                <e p="AuthorizationBehaviour.cs" t="Include" />
+                <e p="LoggingBehaviour.cs" t="Include" />
+                <e p="PerformanceBehaviour.cs" t="Include" />
+                <e p="UnhandledExceptionBehaviour.cs" t="Include" />
+                <e p="ValidationBehavior.cs" t="Include" />
+              </e>
+              <e p="Exceptions" t="Include">
+                <e p="ForbiddenAccessException.cs" t="Include" />
+                <e p="NotFoundException.cs" t="Include" />
+                <e p="UnauthorizeException.cs" t="Include" />
+                <e p="ValidateModelException.cs" t="Include" />
+                <e p="ValidationException.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="IApplicationDbContext.cs" t="Include" />
+                <e p="ICsvFileBuilder.cs" t="Include" />
+                <e p="ICurrentUserService.cs" t="Include" />
+                <e p="IDateTime.cs" t="Include" />
+                <e p="IDomainEventService.cs" t="Include" />
+                <e p="IEmailService.cs" t="Include" />
+                <e p="IHttpClientHandler.cs" t="Include" />
+                <e p="IIdentityService.cs" t="Include" />
+                <e p="IOpenWeatherService.cs" t="Include" />
+                <e p="IRequestWrapper.cs" t="Include" />
+                <e p="ITokenService.cs" t="Include" />
+              </e>
+              <e p="Mapping" t="Include">
+                <e p="MappingExtensions.cs" t="Include" />
+                <e p="StringExtensions.cs" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="DomainEventNotification.cs" t="Include" />
+                <e p="EmailRequest.cs" t="Include" />
+                <e p="PaginatedList.cs" t="Include" />
+                <e p="Result.cs" t="Include" />
+                <e p="ServiceError.cs" t="Include" />
+                <e p="ServiceResult.cs" t="Include" />
+              </e>
+              <e p="Security" t="Include">
+                <e p="AuthorizeAttribute.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DependencyInjection.cs" t="Include" />
+            <e p="Districts" t="Include">
+              <e p="Commands" t="Include">
+                <e p="Create" t="Include">
+                  <e p="CreateDistrictCommand.cs" t="Include" />
+                  <e p="CreateDistrictCommandValidator.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Queries" t="Include">
+                <e p="ExportDistrictsQuery.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Dto" t="Include">
+              <e p="ApplicationUserDto.cs" t="Include" />
+              <e p="CityDto.cs" t="Include" />
+              <e p="CurrentWeatherForecastDto.cs" t="Include" />
+              <e p="DistrictDto.cs" t="Include" />
+              <e p="ExportDto.cs" t="Include" />
+              <e p="VillageDto.cs" t="Include" />
+            </e>
+            <e p="ExternalServices" t="Include">
+              <e p="OpenWeather" t="Include">
+                <e p="Request" t="Include">
+                  <e p="OpenWeatherRequest.cs" t="Include" />
+                </e>
+                <e p="Response" t="Include">
+                  <e p="OpenWeatherResponse.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Application.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Villages" t="Include">
+              <e p="Commands" t="Include" />
+              <e p="Queries" t="Include">
+                <e p="GetVillagesWithPagination" t="Include">
+                  <e p="GetAllVillagesWithPaginationQuery.cs" t="Include" />
+                  <e p="GetAllVillagesWithPaginationQueryValidator.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="WeatherForecasts" t="Include">
+              <e p="Queries" t="Include">
+                <e p="GetCurrentWeatherForecastQuery" t="Include">
+                  <e p="GetCurrentWeatherForecastQuery.cs" t="Include" />
+                  <e p="GetCurrentWeatherForecastQueryValidator.cs" t="Include" />
+                </e>
+                <e p="GetWeatherForecastQuery" t="Include">
+                  <e p="GetWeatherForecastQuery.cs" t="Include" />
+                  <e p="WeatherForecast.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Domain" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Common" t="Include">
+              <e p="AuditableEntity.cs" t="Include" />
+              <e p="DomainEvent.cs" t="Include" />
+              <e p="ValueObject.cs" t="Include" />
+            </e>
+            <e p="Domain.csproj" t="IncludeRecursive" />
+            <e p="Entities" t="Include">
+              <e p="City.cs" t="Include" />
+              <e p="District.cs" t="Include" />
+              <e p="Village.cs" t="Include" />
+            </e>
+            <e p="Enums" t="Include">
+              <e p="MethodType.cs" t="Include" />
+            </e>
+            <e p="Event" t="Include">
+              <e p="CityActivatedEvent.cs" t="Include" />
+              <e p="CityCreatedEvent.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Domain.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Infrastructure" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="DependencyInjection.cs" t="Include" />
+            <e p="Files" t="Include">
+              <e p="CsvFileBuilder.cs" t="Include" />
+              <e p="Maps" t="Include">
+                <e p="DistrictMap.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Identity" t="Include">
+              <e p="ApplicationUser.cs" t="Include" />
+              <e p="IdentityResultExtensions.cs" t="Include" />
+              <e p="IdentityService.cs" t="Include" />
+            </e>
+            <e p="Infrastructure.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="net5.0" t="Include">
+                  <e p="Infrastructure.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Persistence" t="Include">
+              <e p="ApplicationDbContext.cs" t="Include" />
+              <e p="ApplicationDbContextSeed.cs" t="Include" />
+              <e p="Configurations" t="Include">
+                <e p="CityConfiguration.cs" t="Include" />
+                <e p="DistrictConfiguration.cs" t="Include" />
+                <e p="VillageConfiguration.cs" t="Include" />
+              </e>
+              <e p="Migrations" t="Include">
+                <e p="20201123170347_CreateDb.cs" t="Include" />
+                <e p="20201123170347_CreateDb.Designer.cs" t="Include" />
+                <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Services" t="Include">
+              <e p="DateTimeService.cs" t="Include" />
+              <e p="DomainEventService.cs" t="Include" />
+              <e p="EmailService.cs" t="Include" />
+              <e p="Handlers" t="Include">
+                <e p="HttpClientHandler.cs" t="Include" />
+              </e>
+              <e p="OpenWeatherService.cs" t="Include" />
+              <e p="TokenService.cs" t="Include" />
+              <e p="WeatherForeCast" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="tests" t="Include">
+        <e p="Aplication.UnitTests" t="IncludeRecursive">
+          <e p="Application.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Common" t="Include">
+            <e p="Behaviours" t="Include">
+              <e p="RequestLoggerTests.cs" t="Include" />
+            </e>
+            <e p="Exceptions" t="Include">
+              <e p="ValidateModelExceptionTests.cs" t="Include" />
+              <e p="ValidationExceptionTests.cs" t="Include" />
+            </e>
+            <e p="Mappings" t="Include">
+              <e p="MappingTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="Application.UnitTests.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Application.IntegrationTests" t="IncludeRecursive">
+          <e p="Application.IntegrationTests.csproj" t="IncludeRecursive" />
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Cities" t="Include">
+            <e p="Commands" t="Include">
+              <e p="CreateCityTests.cs" t="Include" />
+              <e p="DeleteCityTests.cs" t="Include" />
+              <e p="UpdateCityTests.cs" t="Include" />
+            </e>
+            <e p="Queries" t="Include">
+              <e p="GetAllCitiesTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Districts" t="Include">
+            <e p="Commands" t="Include">
+              <e p="CreateDistrictTests.cs" t="Include" />
+            </e>
+            <e p="Queries" t="Include">
+              <e p="ExportDistrictsTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="Application.IntegrationTests.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="TestBase.cs" t="Include" />
+          <e p="Testing.cs" t="Include" />
+          <e p="Villages" t="Include">
+            <e p="Queries" t="Include">
+              <e p="GetAllVillagesWithPaginationTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WeatherForeCast" t="Include">
+            <e p="Queries" t="Include">
+              <e p="GetCurrentWeatherTests.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Domain.UnitTests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Domain.UnitTests.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="Domain.UnitTests.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
