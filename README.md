@@ -3,7 +3,10 @@
 
 ## this project based on following repo.
 ## BackEnd
+### Matech
 https://www.nuget.org/packages/Matech.Clean.Architecture.Template
+
+### ardalis
 https://github.com/ardalis
 ## FrontEnd
 https://github.com/PanJiaChen/vue-element-admin
