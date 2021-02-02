@@ -32,6 +32,23 @@ Project screenshot
 ## Project Structure
 ![CodeStructure](https://github.com/MorningstarJerry/CleanArchitecture/blob/main/ScreenShots/CodeStructure.png)
 
+## Get Start (change the db to mysql)
+
+* Add nuget Package 
+`Install-Package Pomelo.EntityFrameworkCore.MySql -Version 5.0.0-alpha.2`
+
+* DependencyInjection.cs 
+```
+services.AddDbContext<ApplicationDbContext>(options =>
+                  options.UseMySql(configuration.GetConnectionString("DefaultConnection_MySql"), new MySqlServerVersion(new Version(5, 6, 23))));
+```
+
+* Create Migrations & Generate DB 
+```
+dotnet ef migrations add "CreateDb" --project src\Common\Infrastructure --startup-project src\Apps\WebApi --output-dir Persistence\Migrations
+dotnet ef database update --project src\Common\Infrastructure --startup-project src\Apps\WebApi
+```
+
 ## Project Preview
 ### Login/Main form UI
 #### Login
